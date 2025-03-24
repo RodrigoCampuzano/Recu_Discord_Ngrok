@@ -4,8 +4,8 @@ import (
     "log"
     "net/http"
     "github.com/gin-gonic/gin"
-    "RecuNgrok/discord/application/usecases"
-    "RecuNgrok/discord/domain/entities"
+    "RecuNgrok/Discord/application/usecases"
+    "RecuNgrok/Discord/domain/entities"
 )
 
 type WebhookHandler struct {

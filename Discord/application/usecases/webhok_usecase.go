@@ -2,8 +2,8 @@ package usecases
 
 import (
     "fmt"
-    "RecuNgrok/discord/domain/entities"
-    "RecuNgrok/discord/infrastructure/repositories"
+    "RecuNgrok/Discord/domain/entities"
+    "RecuNgrok/Discord/infrastructure/repositories"
 )
 
 type EventProcessor struct {
