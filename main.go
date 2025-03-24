@@ -5,10 +5,10 @@ import (
     "log"
     "github.com/gin-gonic/gin"
     "github.com/joho/godotenv"
-    "webhook_multi/cmd/app/usecases"
-    "webhook_multi/cmd/infra/adapters"
-    "webhook_multi/cmd/infra/controllers"
-    "webhook_multi/cmd/infra/routes"
+    "RecuNgrok/Discord/application/usecases"
+    "RecuNgrok/Discord/infrastructure/repositories"
+    "RecuNgrok/Discord/infrastructure/controllers"
+    "RecuNgrok/Discord/infrastructure/routes"
 )
 
 func main() {
