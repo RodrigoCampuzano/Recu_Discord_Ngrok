@@ -2,15 +2,15 @@ package usecases
 
 import (
     "fmt"
-    "webhook_multi/cmd/domain/entities"
-    "webhook_multi/cmd/infraestructure/adapters"
+    "RecuNgrok/discord/domain/entities"
+    "RecuNgrok/discord/infrastructure/repositories"
 )
 
 type EventProcessor struct {
-    discordClient *adapters.DiscordClient
+    discordClient *repositories.DiscordClient
 }
 
-func NewEventProcessor(client *adapters.DiscordClient) *EventProcessor {
+func NewEventProcessor(client *repositories.DiscordClient) *EventProcessor {
     return &EventProcessor{discordClient: client}
 }
 
