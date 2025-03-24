@@ -4,7 +4,7 @@ package routes
 
 import (
     "github.com/gin-gonic/gin"
-    "RecuNgrok/discord/infrastructure/controllers"
+    "RecuNgrok/Discord/infrastructure/controllers"
 )
 
 func SetupWebhookRoutes(router *gin.Engine, handler *controllers.WebhookHandler) {
